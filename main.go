@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "foss_otsgenerator/cmd"
 
-func Main() {
-	fmt.Println("Test")
+func main() {
+	cmd.Execute()
 }
