@@ -1,7 +1,7 @@
 {
     "ProjectName": "",
     "Languages": [
-        "dotnet",
+        "nuget",
         "conan",
         "golang",
         "npm"
@@ -41,13 +41,13 @@
                 "TopLevel": true
             }
         ],
-        "dotnet": [
+        "nuget": [
             {
                 "ID": "78c32dc0eb00159",
                 "ImportName": "System.Reflection.Primitives",
                 "Version": "4.3.0",
                 "Licenses": [],
-                "Language": "dotnet",
+                "Language": "nuget",
                 "TopLevel": true
             },
             {
@@ -55,7 +55,7 @@
                 "ImportName": "System.Text.Encoding",
                 "Version": "4.3.0",
                 "Licenses": [],
-                "Language": "dotnet",
+                "Language": "nuget",
                 "TopLevel": true
             }
         ],
