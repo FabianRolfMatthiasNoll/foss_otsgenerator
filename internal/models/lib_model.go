@@ -15,10 +15,10 @@ type Module struct {
 	Hash     string //ID
 	Parents  []string
 	TopLevel bool
-	Info     RepoInfo
+	Info     PackageInfo
 }
 
-type RepoInfo struct {
+type PackageInfo struct {
 	Author      string
 	Description string
 	License     string
