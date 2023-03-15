@@ -17,6 +17,7 @@ type Manager struct {
 
 func (Manager) GenerateOTS(inputPath, configPath, outputPath string) {
 	var sbomManager models.SBOM
+	var BuildInfo models.BuildInfo
 	sbom, err := sbomManager.ReadAndMapSBOM(inputPath)
 	if err != nil {
 		fmt.Println("[", color.Colorize(color.Red, "Err"), "] ", err)
@@ -38,6 +39,8 @@ func (Manager) GenerateOTS(inputPath, configPath, outputPath string) {
 			fmt.Printf("Unsupported language")
 		}
 
-		handler.GetPackageInfo(deps)
+		modules := handler.GetPackageInfo(deps)
+		BuildInfo.Modules = append(BuildInfo.Modules, modules...)
 	}
+	fmt.Println(BuildInfo)
 }
