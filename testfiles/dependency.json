@@ -1,0 +1,251 @@
+{
+    "ProjectName": "",
+    "Languages": [
+        "dotnet",
+        "conan",
+        "golang",
+        "npm"
+    ],
+    "Dependencies": {
+        "conan": [
+            {
+                "ID": "8d1d4140500fc560",
+                "ImportName": "boost",
+                "Version": "1.78.0",
+                "Licenses": [],
+                "Language": "conan",
+                "TopLevel": true
+            },
+            {
+                "ID": "c74d3f5ed63460a8",
+                "ImportName": "fmt",
+                "Version": "8.1.0",
+                "Licenses": [],
+                "Language": "conan",
+                "TopLevel": true
+            },
+            {
+                "ID": "b20480a37ec7a55d",
+                "ImportName": "openssl",
+                "Version": "1.1.1l",
+                "Licenses": [],
+                "Language": "conan",
+                "TopLevel": true
+            },
+            {
+                "ID": "cd378519533a160b",
+                "ImportName": "spdlog",
+                "Version": "1.9.2",
+                "Licenses": [],
+                "Language": "conan",
+                "TopLevel": true
+            }
+        ],
+        "dotnet": [
+            {
+                "ID": "78c32dc0eb00159",
+                "ImportName": "System.Reflection.Primitives",
+                "Version": "4.3.0",
+                "Licenses": [],
+                "Language": "dotnet",
+                "TopLevel": true
+            },
+            {
+                "ID": "94b1615f72a0f3d6",
+                "ImportName": "System.Text.Encoding",
+                "Version": "4.3.0",
+                "Licenses": [],
+                "Language": "dotnet",
+                "TopLevel": true
+            }
+        ],
+        "golang": [
+            {
+                "ID": "b8fc97f0a26fef08",
+                "ImportName": "github.com/TwiN/go-color",
+                "Version": "v1.4.0",
+                "Licenses": [],
+                "Language": "golang",
+                "TopLevel": true
+            },
+            {
+                "ID": "ee9a4ec0bfec8392",
+                "ImportName": "github.com/fatih/color",
+                "Version": "v1.10.0",
+                "Licenses": [],
+                "Language": "golang",
+                "TopLevel": true
+            },
+            {
+                "ID": "57a758621eee8240",
+                "ImportName": "github.com/gammazero/deque",
+                "Version": "v0.2.0",
+                "Licenses": [],
+                "Language": "golang",
+                "TopLevel": true
+            },
+            {
+                "ID": "33d72a3a4d28c183",
+                "ImportName": "github.com/gammazero/workerpool",
+                "Version": "v1.1.3",
+                "Licenses": [],
+                "Language": "golang",
+                "TopLevel": true
+            },
+            {
+                "ID": "4b45224b77894a82",
+                "ImportName": "github.com/goccy/go-yaml",
+                "Version": "v1.9.8",
+                "Licenses": [],
+                "Language": "golang",
+                "TopLevel": true
+            },
+            {
+                "ID": "65fce241b81054a",
+                "ImportName": "github.com/golang/protobuf",
+                "Version": "v1.5.2",
+                "Licenses": [],
+                "Language": "golang",
+                "TopLevel": true
+            },
+            {
+                "ID": "37f2bacc51fd403d",
+                "ImportName": "github.com/google/go-github/v37",
+                "Version": "v37.0.0",
+                "Licenses": [],
+                "Language": "golang",
+                "TopLevel": true
+            },
+            {
+                "ID": "6bd662bca7ddd41c",
+                "ImportName": "github.com/google/go-querystring",
+                "Version": "v1.0.0",
+                "Licenses": [],
+                "Language": "golang",
+                "TopLevel": true
+            },
+            {
+                "ID": "6ef38c1d44e670e9",
+                "ImportName": "github.com/mattn/go-colorable",
+                "Version": "v0.1.12",
+                "Licenses": [],
+                "Language": "golang",
+                "TopLevel": true
+            },
+            {
+                "ID": "1908beaa153400d7",
+                "ImportName": "github.com/mattn/go-isatty",
+                "Version": "v0.0.14",
+                "Licenses": [],
+                "Language": "golang",
+                "TopLevel": true
+            },
+            {
+                "ID": "959053deaf380372",
+                "ImportName": "github.com/pkg/errors",
+                "Version": "v0.9.1",
+                "Licenses": [],
+                "Language": "golang",
+                "TopLevel": true
+            },
+            {
+                "ID": "d247ec77ebf10ec3",
+                "ImportName": "github.com/rs/zerolog",
+                "Version": "v1.29.0",
+                "Licenses": [],
+                "Language": "golang",
+                "TopLevel": true
+            },
+            {
+                "ID": "e3f9b26d89a2401",
+                "ImportName": "golang.org/x/crypto",
+                "Version": "v0.0.0-20200622213623-75b288015ac9",
+                "Licenses": [],
+                "Language": "golang",
+                "TopLevel": true
+            },
+            {
+                "ID": "ed720f904cb3ae14",
+                "ImportName": "golang.org/x/net",
+                "Version": "v0.6.0",
+                "Licenses": [],
+                "Language": "golang",
+                "TopLevel": true
+            },
+            {
+                "ID": "e4f2c178282a7de1",
+                "ImportName": "golang.org/x/oauth2",
+                "Version": "v0.5.0",
+                "Licenses": [],
+                "Language": "golang",
+                "TopLevel": true
+            },
+            {
+                "ID": "1c50120db29bdac8",
+                "ImportName": "golang.org/x/sys",
+                "Version": "v0.5.0",
+                "Licenses": [],
+                "Language": "golang",
+                "TopLevel": true
+            },
+            {
+                "ID": "4709c902ea7d0fb4",
+                "ImportName": "golang.org/x/xerrors",
+                "Version": "v0.0.0-20200804184101-5ec99f83aff1",
+                "Licenses": [],
+                "Language": "golang",
+                "TopLevel": true
+            },
+            {
+                "ID": "42d5ba5b3dd58f95",
+                "ImportName": "google.golang.org/appengine",
+                "Version": "v1.6.7",
+                "Licenses": [],
+                "Language": "golang",
+                "TopLevel": true
+            },
+            {
+                "ID": "fe92d11e540990de",
+                "ImportName": "google.golang.org/protobuf",
+                "Version": "v1.28.0",
+                "Licenses": [],
+                "Language": "golang",
+                "TopLevel": true
+            },
+            {
+                "ID": "2128e6e5d5bb3345",
+                "ImportName": "gopkg.in/yaml.v2",
+                "Version": "v2.4.0",
+                "Licenses": [],
+                "Language": "golang",
+                "TopLevel": true
+            }
+        ],
+        "npm": [
+            {
+                "ID": "2b8d1784333effbc",
+                "ImportName": "selfsigned",
+                "Version": "2.0.1",
+                "Licenses": [],
+                "Language": "npm",
+                "TopLevel": false
+            },
+            {
+                "ID": "edd2bea10b1ce88b",
+                "ImportName": "zone.js",
+                "Version": "0.12.0",
+                "Licenses": [],
+                "Language": "npm",
+                "TopLevel": true
+            },
+            {
+                "ID": "643df8c7f78025fb",
+                "ImportName": "semver",
+                "Version": "5.7.1",
+                "Licenses": [],
+                "Language": "npm",
+                "TopLevel": false
+            }
+        ]
+    }
+}
